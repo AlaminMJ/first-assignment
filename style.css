@@ -1,3 +1,4 @@
+/*--------------REUSEABLE TAG----------------*/
 *{
     margin: 0%;
     padding: 0;
@@ -143,7 +144,10 @@ img{
     margin: 0 auto;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+
 /*------------About section-----------*/
+
+
 .about{
     width: 100%;
     background-image: url(image/7.png);
@@ -165,6 +169,7 @@ h2{
     height: auto;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+
 /*------------recipies section-----------*/
 
 .recipies {
@@ -212,6 +217,7 @@ h2{
 }
 
 /*----------Gellary section----------*/
+
 .gellary{
     padding: 4rem 0;
     background-image: url(image/Frame\ 57.jpg);
@@ -341,5 +347,5 @@ footer h2 span{
 }
 footer p{
     color: rgb(146, 145, 143);
-    font-size: 14px;
+    font-size: 13px;
 }
