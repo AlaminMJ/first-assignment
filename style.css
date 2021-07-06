@@ -61,18 +61,32 @@ img{
     display: flex;
 }
 .nav-list .nav-item{
-    margin: 10px;
+    margin: 8px;
+    
+    
 }
 .nav-list .nav-item .nav-link{
-    padding: 6px 5px;
+    padding: 6px 8px;
     font-size: .938rem;
     font-weight: 400;
     color: #707070;
-}
-.home{
+    border-radius: 8px;
     
+}
+/*.nav-list .nav-item .active{
+    color: #088d4d;
+}*/
+.nav-list .nav-item .nav-link:hover{
+    color: #088d4d;
+}
+/*-----------home section-------------*/
+.home{
+    height: 80vh;
     padding-top: 4rem;
     background-image: url(image/);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container .wraper{
     display: flex;
@@ -114,8 +128,9 @@ img{
    color: #ffffff;
 }
 .m-size{
-    max-height: 350px;
-    width: 350px;
+    max-height: 400px;
+    min-height: 400px;
+    width: 400px;
     object-fit: cover;
     border-radius: 20px;
     
@@ -155,7 +170,7 @@ h2{
 .recipies {
     width: 100%;
     margin-top: 2rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 .recipies .details{
     text-align: center;
@@ -173,8 +188,9 @@ h2{
  padding: 15px;
  border-radius: 20px;
  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
- 
+
 }
+
 .recipies .wraper .item img{
   height: 220px;
   width: 100%;
@@ -183,15 +199,22 @@ h2{
   margin:  0 auto;
   border-radius: 20px;
   margin-bottom: 20px;
+  opacity: 1;
+  transition: all .5s;
 
+}
+.recipies .wraper .item img:hover{
+    opacity: .8;
 }
 .recipies .wraper .item h3{
-    font-size: 25px;
- font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(68, 65, 65);
+   
 
 }
 
-
+/*----------Gellary section----------*/
 .gellary{
     padding: 4rem 0;
 
@@ -218,4 +241,30 @@ h2{
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
+    opacity: 1;
+    transition: .5s;
+}
+.gellary .wraper .item img:hover{
+    opacity: .7;
+}
+
+
+/*------------footer section-----------*/
+footer{
+    padding: 4rem 0;
+    text-align: center;
+    background-color: rgb(19, 18, 18);
+
+}
+footer h2{
+    color: #cec8c8;
+    font-size: 30px;
+    font-weight: 500;
+}
+footer h2 span{
+    color: #088d4d;
+}
+footer p{
+    color: rgb(146, 145, 143);
+    font-size: 14px;
 }
