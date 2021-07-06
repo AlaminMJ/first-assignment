@@ -134,12 +134,14 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+  
 }
 .active,span{
     color: #088d4d;
 }
 .home img{
     margin: 0 auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 /*------------About section-----------*/
 .about{
@@ -156,10 +158,12 @@ h2{
 }
 .about .right-side{
     padding: 30px 60px;
+
 }
 .about img{
     width: 400px;
     height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 /*------------recipies section-----------*/
 
