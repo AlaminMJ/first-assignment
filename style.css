@@ -37,7 +37,7 @@ img{
 .nav-logo{
     font-size: 18px;
     font-weight: 700;
-    color: #f0c714;
+    color: #F27121;
 }
 .container{
     width: 100;
@@ -64,6 +64,7 @@ img{
 }
 .home{
     margin-top: 4rem;
+    background-image: url(image/);
 }
 .home .container .wraper{
     display: flex;
@@ -81,6 +82,9 @@ img{
     line-height: 55px;
     margin: 48px 0;
 }
+.home .container .wraper .left-side h1 span{
+    color: #F27121;
+}
 .home .container .wraper .left-side p{
     font-size: 15px;
     font-weight: 500;
@@ -90,7 +94,7 @@ img{
 .home .container .wraper .left-side a{
    padding: 15px 50px;
    border-radius: 50px;
-   background-color: gold;
+   background-image: linear-gradient(to right,#F27121,#E94057);
    font-size: 20px;
    margin-top: 10px;
    display: inline-block;
