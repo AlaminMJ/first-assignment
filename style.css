@@ -61,28 +61,21 @@ img{
     display: flex;
 }
 .nav-list .nav-item{
-    margin: 8px;
-    
-    
+    margin: 8px;   
 }
 .nav-list .nav-item .nav-link{
     padding: 6px 8px;
     font-size: .938rem;
     font-weight: 400;
     color: #707070;
-    border-radius: 8px;
-    
+    border-radius: 8px; 
 }
-/*.nav-list .nav-item .active{
-    color: #088d4d;
-}*/
 .nav-list .nav-item .nav-link:hover{
     color: #088d4d;
 }
 /*-----------home section-------------*/
 .home{
-    height: 80vh;
-    padding-top: 4rem;
+    padding: 4rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +149,6 @@ img{
     background-size: cover;
     background-position: center;
     padding: 4rem;
-   
 }
 h2{
     font-size: 35px;
@@ -193,7 +185,6 @@ h2{
  padding: 15px;
  border-radius: 20px;
  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
 }
 
 .recipies .wraper .item img{
@@ -206,7 +197,6 @@ h2{
   margin-bottom: 20px;
   opacity: 1;
   transition: all .5s;
-
 }
 .recipies .wraper .item img:hover{
     opacity: .8;
@@ -215,8 +205,6 @@ h2{
     font-size: 22px;
     font-weight: 500;
     color: rgb(68, 65, 65);
-   
-
 }
 
 /*----------Gellary section----------*/
@@ -226,7 +214,6 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 .gellary h2{
     text-align: center;
@@ -284,7 +271,6 @@ h2{
 .contact form{
     width: 100%;
     padding: 20px 100px;
-  
 }
 .contact{
     background-image: url(image/Frame\ 59.jpg);
