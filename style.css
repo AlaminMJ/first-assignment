@@ -217,6 +217,10 @@ h2{
 /*----------Gellary section----------*/
 .gellary{
     padding: 4rem 0;
+    background-image: url(image/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 .gellary h2{
@@ -247,10 +251,84 @@ h2{
 .gellary .wraper .item img:hover{
     opacity: .7;
 }
+/*------------contact section-----------*/
 
+.contact{
+    padding: 4rem 0;
+}
+.contact h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.s-img{
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.contact .right-side,.contact .left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact form{
+    width: 100%;
+    padding: 20px 100px;
+  
+}
+.contact{
+    background-image: url(image/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact input[type="text"]{
+    display: block;
+    width: 80%;
+    height: 40px;
+    padding: 0 10px;
+    color: #707070;
+    outline: none;
+    border: none;
+    background: none;
+    margin: 20px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #707070;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.contact input[type="button"]{
+    display: block;
+    border: none;
+    font-size: 16px;
+    padding: 12px 40px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right,#46ac50,#36dbaa);
+    border-radius: 25px;
+    outline: none;
+}
+.contact textarea{
+    background: none;
+    width: 80%;
+    height: 150px;
+    padding: 4px 10px;
+    color: #707070;
+    outline: none;
+    border: 1px solid #707070;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
 
 /*------------footer section-----------*/
-footer{
+
+.footer{
     padding: 4rem 0;
     text-align: center;
     background-color: rgb(19, 18, 18);
